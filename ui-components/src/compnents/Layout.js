@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Container from './container'
+import './base.css'
 
 class Template extends React.Component {
     render() {

@@ -13,6 +13,7 @@ function Card({ category, name, image, description }) {
              width: 372px;
              background-color: #fff;
              border-radius: 10px;
+            
        >img{
            height:100%;
            width:100%;
@@ -22,9 +23,28 @@ function Card({ category, name, image, description }) {
        } `}>
 
             <img src={image} />
-            <h3>{name}</h3>
-            <h1>Surfing the wave</h1>
-            <p>It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.</p>
+            <section css={css`
+            padding:27px 37px;
+            `}>
+                <h3 css={css`
+
+                color:#33439B;
+                `}>{category}
+
+                </h3>
+                <h1 css={css`
+                text-transform: capitalize;
+
+                `}>
+                    {name}
+                </h1>
+                <p css={css`
+                font-weight: 300;
+                
+                `}>
+                    {description}
+                </p>
+            </section>
 
         </div>
     )

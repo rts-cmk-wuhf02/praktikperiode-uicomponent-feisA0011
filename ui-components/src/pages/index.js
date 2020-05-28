@@ -12,7 +12,12 @@ class Rootindex extends React.Component {
 
     return (
       <Layout>
-        <TravelCard image={cards[0].image.fluid.src} name={cards[0].name} />
+        <TravelCard
+          image={cards[0].image.fluid.src}
+          name={cards[0].name}
+          category={cards[0].category}
+          description={cards[0].description}
+        />
       </Layout>
     )
   }
