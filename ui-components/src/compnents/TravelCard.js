@@ -3,9 +3,11 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import get from 'lodash/get';
 
+
 import { css, jsx } from '@emotion/core';
 
 function Card({ category, name, image, description }) {
+
 
     return (
         <div
@@ -15,7 +17,7 @@ function Card({ category, name, image, description }) {
              border-radius: 10px;
             
        >img{
-           height:100%;
+          
            width:100%;
            display:block;
            border-radius: 10px 10px 0 0 ;
