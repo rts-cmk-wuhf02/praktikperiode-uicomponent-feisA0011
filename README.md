@@ -44,4 +44,4 @@ Du skal downloade XD filen herfra: https://bit.ly/2Xkqsbm
 
 Aflevering torsdag d. 4 Juni.<br>
 Du har afleveret når din applikation er hostet på github pages og linket hertil er sat ind herunder.<br><br>
-**Projekt url:** feisalsui.netlify.app
+**Projekt url:** https://feisalsui.netlify.app/
